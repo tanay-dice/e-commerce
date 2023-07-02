@@ -884,6 +884,8 @@ padding-top: 15px;
     object-fit: cover;
 
   } */
+
+ 
   #navbar.active {
     right: 0px;
   }
@@ -954,7 +956,7 @@ padding-top: 15px;
     padding: 20px;
   }
   #header {
-    padding: 10px 30px;
+    padding: 10px 20px;
   }
   h1 {
     font-size: 38px;
@@ -964,7 +966,7 @@ padding-top: 15px;
   }
   #hero {
     padding: 0 20px;
-    background-position: 55%;
+    background-position: 37%;
   }
   #feature {
     justify-content: space-between;
@@ -1073,4 +1075,15 @@ padding-top: 15px;
     padding: 20px;
   }
 
+}
+@media (max-width:517px) {
+  .logo{
+    width: 200px;
+  }
+}
+
+@media (max-width:471px) {
+  .logo{
+    width: 150px;
+  }
 }
