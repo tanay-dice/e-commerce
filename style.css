@@ -36,9 +36,17 @@ p {
 }
 .logo{
   width: 300px;
+  vertical-align: middle;
+
 }
 .triangle {
-  display: none;
+  /* display: none; */
+  height: 40px;
+  width: 40px;
+  /* align-items: center; */
+  vertical-align: middle;
+
+
 }
 button.normal {
   font-size: 14px;
@@ -130,6 +138,7 @@ body {
   width: 100%;
   /* background-position: top 25% right 0; */
   background-size: cover;
+  object-fit: cover;
   padding: 0 80px;
   display: flex;
   flex-direction: column;
@@ -865,16 +874,16 @@ padding-top: 15px;
     padding: 80px 0 0 10px;
     transition: 0.3s;
   }
-  #header a .logo {
+  /* #header a .logo {
     display: none;
-  }
-  .triangle {
+  } */
+  /* .triangle {
     display: block;
     width: 30px !important; 
     height: 30px;
     object-fit: cover;
 
-  }
+  } */
   #navbar.active {
     right: 0px;
   }
